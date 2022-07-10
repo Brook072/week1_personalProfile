@@ -1,0 +1,164 @@
+@import "./CSSReset";
+
+html,body{
+    font-family: sans-serif, "SF Pro Text", "Ping Fang TC";
+}
+
+img{
+    vertical-align: top;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.profileName{
+    font-family: "SF Pro Text";
+    font-size: 80px;
+    line-height: 95px;
+    margin-bottom: 72px;
+    padding-top: 40px;
+}
+
+.hrStyle1{
+    width: 100%;;
+    border-top: 2px solid #000000;
+    position: absolute;
+    top: 254px;
+}
+
+.profilePic{
+    display: block;
+    margin-bottom: 48px;
+}
+
+.item{
+    margin-bottom: 64px;
+}
+
+.titleGroup{
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.title{
+    display: inline;
+    font-family: "Ping Fang TC";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.titleEng{
+    font-family: "SF Pro Text";
+    color: #A00404;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.hrStyle2{
+    width: 100%;
+    border-top: 1px solid #000000;
+    position: absolute;
+    // top: 56px;
+}
+
+.text{
+    color: #000000;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+
+.eduList{
+    .text{
+        margin-bottom: 16px;
+    }
+}
+
+.item.skill, footer{
+    background-color: #415165;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    .container{
+        max-width: 996px;
+    }
+    .titleGroup{
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .title,.titleEng,.text{
+        color: #ffffff;
+    }
+    .hrStyle2{
+        border-color: #ffffff;
+    }
+    .skillList{
+        margin: 0 auto;
+        border-left: 1px solid #ffffff;
+        padding-left: 24px;
+        width: fit-content;
+    }
+    .text{
+        font-family: "SF Pro Text";
+        margin-bottom: 8px;
+        &.last{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.exp{
+    margin-bottom: 80px;
+}
+
+.expUnit{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.expList{
+    width: 60%;
+    border-left: 1px solid #000000;
+    padding-left: 24px;
+    margin-left: 24px;
+    .noMb{
+        margin-bottom: 0;
+    }
+    .text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+footer{
+    .titleGroup{
+        margin-bottom: 32px;
+    }
+}
+
+.contactList{
+    .text{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}
+
+.socialGroup{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.logo.m{
+    margin: 0 24px;
+}
