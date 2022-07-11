@@ -106,7 +106,7 @@ a {
   display: inline;
   font-family: "Ping Fang TC";
   font-size: 32px;
-  line-height: 48px;
+  line-height: 1.5;
   font-weight: 500;
   margin-right: 16px;
 }
@@ -115,7 +115,7 @@ a {
   font-family: "SF Pro Text";
   color: #A00404;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   font-weight: 600;
   vertical-align: top;
 }
@@ -130,7 +130,7 @@ a {
   font-family: "Ping Fang TC";
   color: #000000;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   margin-bottom: 24px;
   font-weight: 300;
 }
@@ -186,7 +186,7 @@ a {
 
 .expUnit {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   font-weight: 500;
   margin-bottom: 24px;
 }
@@ -204,7 +204,7 @@ a {
 
 .expList .text {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
 }
 
 footer .titleGroup {
