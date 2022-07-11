@@ -60,10 +60,18 @@ img {
   vertical-align: top;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
+}
+
+.top {
+  padding-top: 40px;
 }
 
 .profileName {
@@ -71,14 +79,13 @@ img {
   font-size: 80px;
   line-height: 95px;
   margin-bottom: 72px;
-  padding-top: 40px;
 }
 
 .hrStyle1 {
   width: 100%;
   border-top: 2px solid #000000;
   position: absolute;
-  top: 254px;
+  top: 246px;
 }
 
 .profilePic {
@@ -120,6 +127,7 @@ img {
 }
 
 .text {
+  font-family: "Ping Fang TC";
   color: #000000;
   font-size: 24px;
   line-height: 36px;
@@ -205,9 +213,12 @@ footer .titleGroup {
 
 .contactList .text {
   display: block;
-  text-decoration: none;
   text-align: center;
   margin-bottom: 16px;
+}
+
+.contactList .text.web {
+  font-family: "Ping Fang TC";
 }
 
 .socialGroup {
@@ -217,7 +228,7 @@ footer .titleGroup {
   width: fit-content;
 }
 
-.logo.m {
+.logo.middle {
   margin: 0 24px;
 }
 /*# sourceMappingURL=index.css.map */

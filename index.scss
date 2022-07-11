@@ -1,5 +1,6 @@
 @import "./CSSReset";
 
+// General configure
 html,body{
     font-family: sans-serif, "SF Pro Text", "Ping Fang TC";
 }
@@ -8,10 +9,19 @@ img{
     vertical-align: top;
 }
 
+a{
+    text-decoration: none;
+}
+
+// Top container configure
 .container{
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+}
+
+.top{
+    padding-top: 40px;
 }
 
 .profileName{
@@ -19,14 +29,13 @@ img{
     font-size: 80px;
     line-height: 95px;
     margin-bottom: 72px;
-    padding-top: 40px;
 }
 
 .hrStyle1{
-    width: 100%;;
+    width: 100%;
     border-top: 2px solid #000000;
     position: absolute;
-    top: 254px;
+    top: 246px;
 }
 
 .profilePic{
@@ -65,10 +74,10 @@ img{
     width: 100%;
     border-top: 1px solid #000000;
     position: absolute;
-    // top: 56px;
 }
 
 .text{
+    font-family: "Ping Fang TC";
     color: #000000;
     font-size: 24px;
     line-height: 36px;
@@ -82,6 +91,7 @@ img{
     }
 }
 
+//Skill and footer common configure
 .item.skill, footer{
     background-color: #415165;
     padding-top: 24px;
@@ -114,6 +124,7 @@ img{
     }
 }
 
+// Bottom container configure
 .exp{
     margin-bottom: 80px;
 }
@@ -139,6 +150,8 @@ img{
     }
 }
 
+
+// Footer only configure
 footer{
     .titleGroup{
         margin-bottom: 32px;
@@ -148,9 +161,11 @@ footer{
 .contactList{
     .text{
         display: block;
-        text-decoration: none;
         text-align: center;
         margin-bottom: 16px;
+        &.web{
+            font-family: "Ping Fang TC";
+        }
     }
 }
 
@@ -159,6 +174,6 @@ footer{
     width: fit-content;
 }
 
-.logo.m{
+.logo.middle{
     margin: 0 24px;
 }
