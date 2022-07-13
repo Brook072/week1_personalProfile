@@ -54,6 +54,7 @@ table {
 
 html, body {
   font-family: sans-serif, "SF Pro Text", "Ping Fang TC";
+  line-height: 1.5;
 }
 
 img {
@@ -67,7 +68,6 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  position: relative;
 }
 
 .top {
@@ -75,17 +75,12 @@ a {
 }
 
 .profileName {
-  font-family: "SF Pro Text";
+  font-family: sans-serif,"SF Pro Text";
   font-size: 80px;
   line-height: 95px;
-  margin-bottom: 72px;
-}
-
-.hrStyle1 {
-  width: 100%;
-  border-top: 2px solid #000000;
-  position: absolute;
-  top: 246px;
+  margin-bottom: 48px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #000;
 }
 
 .profilePic {
@@ -104,20 +99,18 @@ a {
 
 .title {
   display: inline;
-  font-family: "Ping Fang TC";
+  font-family: sans-serif,"Ping Fang TC";
   font-size: 32px;
-  line-height: 1.5;
   font-weight: 500;
-  margin-right: 16px;
 }
 
 .titleEng {
-  font-family: "SF Pro Text";
+  font-family: sans-serif,"SF Pro Text";
   color: #A00404;
   font-size: 24px;
-  line-height: 1.5;
   font-weight: 600;
   vertical-align: top;
+  margin-left: 16px;
 }
 
 .hrStyle2 {
@@ -127,10 +120,9 @@ a {
 }
 
 .text {
-  font-family: "Ping Fang TC";
+  font-family: sans-serif,"Ping Fang TC";
   color: #000000;
   font-size: 24px;
-  line-height: 1.5;
   margin-bottom: 24px;
   font-weight: 300;
 }
@@ -172,7 +164,7 @@ a {
 }
 
 .item.skill .text, footer .text {
-  font-family: "SF Pro Text";
+  font-family: sans-serif,"SF Pro Text";
   margin-bottom: 8px;
 }
 
@@ -186,7 +178,6 @@ a {
 
 .expUnit {
   font-size: 24px;
-  line-height: 1.5;
   font-weight: 500;
   margin-bottom: 24px;
 }
@@ -204,7 +195,6 @@ a {
 
 .expList .text {
   font-size: 20px;
-  line-height: 1.5;
 }
 
 footer .titleGroup {
@@ -218,7 +208,12 @@ footer .titleGroup {
 }
 
 .contactList .text.web {
-  font-family: "Ping Fang TC";
+  font-family: sans-serif,"Ping Fang TC";
+}
+
+.contactList a:hover {
+  text-shadow: 3px 3px #000000;
+  font-weight: bold;
 }
 
 .socialGroup {
